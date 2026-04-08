@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kindi_WellnessApp</string>
+    <string name="health_and_wellness">Health And Wellness</string>
+    <string name="health_recipes">Health Recipes</string>
+    <string name="nutrition_advice">Nutrition Advice</string>
+    <string name="healthy_recipes_content">
+        Healthy Recipes\n\n1.
+        Fruit Salad \nA mix of fresh fruits like bananas, apples and oranges.\n\n2
+        Grilled Chicken\nLow -fat grilled chicken served with vegetables.\n\n3.
+        Vegetables Stir fry\nCarrots, broccoli and pepper cooked lightly.\n\n4.
+        Oatmeal Breakfast\nOats with milk and fruits.\n\n5.
+        Avocado Toast\nWhole grain bread topped with avocado.\n\n6.
+        Boiled Eggs\nRich in protein and easy to prepare.\n\n7.
+        Smoothie Bowl\nBlended fruits with yogurt and nuts.\n\n8.
+        Brown Rice and Beans\nHealthy and full of fiber.\n\n9.
+        Baked Fish\nFish baked with lemon and spices.\n\n10.
+        Greek yogurt with Honey\nGoog to digest and very nutritious.
+    </string>
+    <string name="check_progress">Check Progress</string>
+    <string name="daily_motivation">Daily Motivation</string>
+    <string name="hydration_alert">Hydration Alert</string>
+    <string name="meditation">Meditation</string>
+    <string name="start_exercise">Start Exercise</string>
+    <string name="weekly_goals">Weekly Goals</string>
+    <string name="nutrition_advice_content">
+
+    </string>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/health_and_wellness"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image2"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"/>
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adView"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Recipes"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:id="@+id/health_recipes"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Advice"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/nutrition_advice"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/meditation"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration Alert"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/hydration_alert"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Exercise"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/start_exercise"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Motivation"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/daily_motivation"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/weekly_goals"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Progress"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:id="@+id/check_progress"/>
+    </LinearLayout>
+
+</ScrollView>
